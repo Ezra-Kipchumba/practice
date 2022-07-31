@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#btn{
+    cursor: pointer;
+    padding: 10px;
+    color: darkturquoise;
+    background-color: black;
+    font-family: system-ui, sans-serif;
+    border-radius: 6px;
+    font-size: 44px;
+    font-weight: 400;
+    text-shadow: 2px -3px;
+    white-space: nowrap;
+    box-shadow: -2px -3px 3px white;
+    transition: all 0.5s;
+    
+}
+#btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #btn:hover span {
+    padding-right: 25px;
+    color: rgb(7, 189, 250);
+  }
+.yikes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+body{
+    background-image: url(/images/christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+}
+
